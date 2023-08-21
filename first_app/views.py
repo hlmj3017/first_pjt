@@ -17,7 +17,7 @@ def hello(request):
     return render(request, 'hello.html', result)
 
 def lunch(request):
-    menus = ['라면', '김밥', '떡볶이']
+    menus = ['라면', '김밥', '떡볶이', '튀김']
 
     pick = random.choice(menus)
 
